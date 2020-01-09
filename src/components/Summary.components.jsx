@@ -27,7 +27,7 @@ class Summary extends Component {
                 100
               ).toFixed(0)}
               {"% "}
-              <a className="green">
+              <a href="#" className="green">
                 {(this.state.data.data.data.summary.jobs.regional /
                   this.state.data.data.data.summary.jobs.national_avg) *
                   100 <
@@ -40,7 +40,7 @@ class Summary extends Component {
           </div>
           <div className="block">
             <h1>
-              <a className="green">
+              <a href="#" className="green">
                 {this.state.data.data.data.summary.jobs_growth.regional > 0 ? "+" : "-"}{" "}
                 {this.state.data.data.data.summary.jobs_growth.regional} %
               </a>
@@ -51,7 +51,7 @@ class Summary extends Component {
             </h4>
             <h3>
               Nation:{" "}
-              <a className="green">
+              <a href="#" className="green">
                 {this.state.data.data.data.summary.jobs_growth.national_avg > 0
                   ? "+"
                   : "-"}
