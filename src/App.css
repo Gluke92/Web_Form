@@ -4,12 +4,12 @@ html {
 }
 
 .App {
-    text-align: center;
+  text-align: center;
 }
 
 .summary {
   display: grid;
-  grid-template-columns: repeat(3, 1fr)
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .block {
@@ -23,10 +23,12 @@ html {
   color: green;
 }
 
-
+a {
+  text-decoration: none;
+}
 
 table,
-td, 
+td,
 th {
   border-bottom: 1px solid black;
   border-collapse: collapse;
@@ -36,6 +38,3 @@ th {
   text-transform: capitalize;
   width: 100%;
 }
-
-
-
